@@ -1,0 +1,288 @@
+{
+    "gameAttributes": [
+        { "key": "numGames", "value": 82 },
+        { "key": "numGamesPlayoffSeries", "value": [1, 1, 1, 1] },
+        { "key": "quarterLength", "value": 12 },
+        { "key": "salaryCap", "value": 90000 },
+        { "key": "budget", "value": true },
+        { "key": "luxuryPayroll", "value": 100000 },
+        { "key": "maxContract", "value": 30000 },
+        { "key": "minContract", "value": 0 },
+        { "key": "minRosterSize", "value": 10 },
+        { "key": "maxRosterSize", "value": 15 },
+        { "key": "minPayroll", "value": 60000 },
+        { "key": "pace", "value": 130 },
+        { "key": "threePointAccuracyFactor", "value": 1 },
+        { "key": "threePointTendencyFactor", "value": 1 },
+        { "key": "twoPointAccuracyFactor", "value": 1 },
+        { "key": "foulRateFactor", "value": 1 },
+        {
+            "key": "confs",
+            "value": [{ "cid": 0, "name": "Pakistani Basketball League" },
+		      { "cid": 1, "name": "Afghan Basketball League" }]
+        },
+        {
+	    "key": "divs",
+            "value": [{ "did": 0, "cid": 0, "name": "Division A" },
+		      { "did": 1, "cid": 0, "name": "Division B" },
+		      { "did": 2, "cid": 0, "name": "Division C" },
+		      { "did": 3, "cid": 1, "name": "Division D" },
+		      { "did": 4, "cid": 1, "name": "Division E" },
+		      { "did": 5, "cid": 1, "name": "Division F" }]
+        },
+        {
+            "key": "playerBioInfo",
+            "value": {
+                "countries": {
+                    "USA": {
+                        "fractionSkipCollege": 1
+                    }
+                },
+                "frequencies": {
+                    "Pakistan": 1
+                }
+            }
+        }
+    ],
+    "teams": [
+        {
+	    "tid": 0, 
+            "cid": 0, 
+            "did": 2, 
+            "region": "Faisalabad", 
+            "name": "Falcons",
+            "abbrev": "FAI",
+            "pop": 3.2, 
+            "imgURL": "https://pngimg.com/uploads/falcon/falcon_PNG16.png"
+        },
+        {
+            "tid": 1,
+            "cid": 0,
+            "did": 2,
+            "region": "Islamabad",
+            "name": "Iguanas",
+            "abbrev": "ISL",
+            "pop": 2,
+            "imgURL": "https://pngimg.com/uploads/iguana/iguana_PNG7.png"
+        },
+        {
+            "tid": 2,
+            "cid": 0,
+            "did": 0,
+            "region": "Karachi",
+            "name": "Kangaroos",
+            "abbrev": "KAR",
+            "pop": 16.1,
+            "imgURL": "https://pngimg.com/uploads/kangaroo/kangaroo_PNG13.png"
+        },
+        {
+            "tid": 3,
+            "cid": 0,
+            "did": 1,
+            "region": "Rawalpindi",
+            "name": "Racoons",
+            "abbrev": "RAW",
+            "pop": 10,
+            "imgURL": "https://pngimg.com/uploads/lemur/lemur_PNG34.png"
+        },
+        {
+            "tid": 4,
+            "cid": 0,
+            "did": 1,
+            "region": "Sargodha",
+            "name": "Salamanders",
+            "abbrev": "SAR",
+            "pop": 8.2,
+            "imgURL": "https://pngimg.com/uploads/lizard/lizard_PNG39.png"
+        },
+        {
+            "tid": 5,
+            "cid": 0,
+            "did": 1,
+            "region": "Peshawar",
+            "name": "Penguins",
+            "abbrev": "PES",
+            "pop": 7.4,
+            "imgURL": "https://pngimg.com/uploads/penguin/pinguin_PNG1.png"
+        },
+        {
+            "tid": 6,
+            "cid": 1,
+            "did": 3,
+            "region": "Kabul",
+            "name": "Koalas",
+            "abbrev": "KAB",
+            "pop": 4.3,
+            "imgURL": "https://pngimg.com/uploads/koala/koala_PNG10.png"
+        },
+        {
+            "tid": 7,
+            "cid": 1,
+            "did": 4,
+            "region": "Kunduz",
+            "name": "Kiwis",
+            "abbrev": "KUN",
+            "pop": 0.4,
+            "imgURL": "https://pngimg.com/uploads/kiwi/kiwi_PNG4010.png"
+        },
+        {
+            "tid": 8,
+            "cid": 0,
+            "did": 1,
+            "region": "Quetta",
+            "name": "Quetzals",
+            "abbrev": "QUE",
+            "pop": 4.2,
+            "imgURL": "https://pngimg.com/uploads/birds/birds_PNG47.png"
+        },
+        {
+            "tid": 9,
+            "cid": 1,
+            "did": 3,
+            "region": "Kandahar",
+	    "name": "Kingfishers",
+	    "abbrev": "KAN", "pop": 0.6,
+	    "imgURL": "https://pngimg.com/uploads/hummingbird/hummingbird_PNG71.png"
+	},
+	{
+	    "tid": 10,
+	    "cid": 1,
+	    "did": 5,
+	    "region": "Charikar",
+	    "name": "Cheetas",
+	    "abbrev": "CHA",
+	    "pop": 0.2,
+	    "imgURL": "https://pngimg.com/uploads/cheetah/cheetah_PNG14868.png"
+	},
+	{
+	    "tid": 11,
+	    "cid": 1,
+	    "did": 5,
+	    "region": "Lashkargah",
+	    "name": "Lions",
+	    "abbrev": "LAS",
+	    "pop": 0.2,
+	    "imgURL": "https://pngimg.com/uploads/lion/lion_PNG573.png"
+	},
+	{
+	    "tid": 12,
+	    "cid": 1,
+	    "did": 3,
+	    "region": "Herat",
+	    "name": "Horses",
+	    "abbrev": "HER",
+	    "pop": 0.6,
+	    "imgURL": "https://pngimg.com/uploads/horse/horse_PNG2556.png"
+	},
+	{
+	    "tid": 13,
+	    "cid": 0,
+	    "did": 2,
+	    "region": "Sialkot",
+	    "name": "Seals",
+	    "abbrev": "SIA",
+	    "pop": 1.8,
+	    "imgURL": "https://pngimg.com/uploads/harbor_seal/harbor_seal_PNG26.png"
+	},
+	{
+	    "tid": 14,
+	    "cid": 1,
+	    "did": 4,
+	    "region": "Jalalabad",
+	    "name": "Jackals",
+	    "abbrev": "JAL",
+	    "pop": 0.3,
+	    "imgURL": "https://pngimg.com/uploads/jackal/jackal_PNG4.png"
+	},
+	{
+	    "tid": 15,
+	    "cid": 0,
+	    "did": 0,
+	    "region": "Multan",
+	    "name": "Mules",
+	    "abbrev": "MUL",
+	    "pop": 12.3,
+	    "imgURL": "https://pngimg.com/uploads/donkey/donkey_PNG45.png"
+	},
+	{
+	    "tid": 16,
+	    "cid": 0,
+	    "did": 0,
+	    "region": "Lahore",
+	    "name": "Llamas",
+	    "abbrev": "LAH",
+	    "pop": 11.1,
+	    "imgURL": "https://pngimg.com/uploads/sheep/sheep_PNG2188.png"
+	},
+	{
+	    "tid": 17,
+	    "cid": 0,
+	    "did": 0,
+	    "region": "Hyderabad",
+	    "name": "Hyenas",
+	    "abbrev": "HYD",
+	    "pop": 10.6,
+	    "imgURL": "https://pngimg.com/uploads/hyena/hyena_PNG3.png" 
+	},
+	{
+	    "tid": 18,
+	    "cid": 1,
+	    "did": 3,
+	    "region": "Mazar-i-Sharif",
+	    "name": "Macaws",
+	    "abbrev": "MAZ",
+	    "pop": 0.5,
+	    "imgURL": "https://pngimg.com/uploads/birds/birds_PNG102.png"
+	},
+	{
+	    "tid": 19,
+	    "cid": 1,
+	    "did": 4,
+	    "region": "Taloqan",
+	    "name": "Tigers",
+	    "abbrev": "TAL",
+	    "pop": 0.3,
+	    "imgURL": "https://pngimg.com/uploads/tiger/tiger_PNG23250.png"
+	},
+	{
+	    "tid": 20,
+	    "cid": 1,
+	    "did": 5,
+	    "region": "Sheberghan",
+	    "name": "Sharks",
+	    "abbrev": "SHE",
+	    "pop": 0.2,
+	    "imgURL": "https://pngimg.com/uploads/shark/shark_PNG18809.png"
+	},
+	{
+	    "tid": 21,
+	    "cid": 1,
+	    "did": 5,
+	    "region": "Ghazni",
+	    "name": "Giraffes",
+	    "abbrev": "GHA",
+	    "pop": 0.2,
+	    "imgURL": "https://pngimg.com/uploads/giraffe/giraffe_PNG13541.png"
+	},
+	{
+	    "tid": 22,
+	    "cid": 1,
+	    "did": 4,
+	    "region": "Puli Khumri",
+	    "name": "Platypuses",
+	    "abbrev": "PUL",
+	    "pop": 0.2,
+	    "imgURL": "https://pngimg.com/uploads/birds/birds_PNG46.png"
+	},
+	{
+	    "tid": 23,
+	    "cid": 0,
+	    "did": 2,
+	    "region": "Muzaffargarh",
+	    "name": "Monkeys",
+	    "abbrev": "MUZ",
+	    "pop": 1.6,
+	    "imgURL": "https://pngimg.com/uploads/monkey/monkey_PNG18743.png"
+	}
+    ]
+}
